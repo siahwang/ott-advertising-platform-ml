@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.json
+data/raw/*
+data/processed/*
+!data/sample/
+
+# Models
+*.pkl
+*.joblib
+*.h5
+
+# API Keys
+.env
+config.py
+api_keys.txt
+
+# Presentation files
+*.pptx
+*.ppt
+!05_presentation_slides.pdf
+
+# OS
+.DS_Store
